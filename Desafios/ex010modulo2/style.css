@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'site';
+    src: url(fontes/idroid.otf) format(openttpe);
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+body{
+    font-family: 'site', sans-serif;
+    background-color: rgb(74, 168, 116);
+    margin: 0px;
+    text-justify: auto;
+}
+
+
+h2 {
+    color: rgb(1, 80, 1);
+    background-image: linear-gradient(to right, rgba(55, 151, 55, 0.685), rgba(143, 247, 143, 0.267));
+}
+h3 {
+    background-color: rgb(0, 136, 0);
+    color: white;
+    padding: 0px 5px;
+}
+
+header {
+    
+    background-image:  linear-gradient(to top, rgb(3, 136, 3), rgba(168, 255, 175, 0.514));
+    text-align: center;
+    color: white;
+    padding: 15px;
+    
+}
+
+main {
+    text-align: left;
+}
+
+main > a {
+    text-align: left;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin: 0px 70px;
+}
+
+iframe{
+    background-color: rgb(2, 73, 2);
+    border: 5px green;
+}
+
+article {
+    background-color: rgb(181, 250, 198);
+    padding: 5px;
+}
+
+footer {
+    background-color: rgb(3, 73, 3);
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
