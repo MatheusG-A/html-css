@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste1</title>
+    <link rel="shortcut icon" href="../caveira2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>NultiCasa</h1>
+        <p>produtos decorativos feito a mão</p>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Produtos</a>
+        <a href="#">Sobre Nos</a>
+        <a href="#">Contado</a>
+    </nav>
+    <main>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veniam quos placeat, nulla hic quis porro amet! Porro voluptatibus, illo placeat nobis iure fugiat officia enim veniam debitis! Sed, reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias sint hic beatae aperiam cum dolores, at repellat eum quo est corrupti nihil voluptas velit rerum quisquam soluta excepturi eveniet!</p>
+
+            <picture>
+                <source media="(min-width: 1000px)" srcset="estilos\imagens\back-pc.jpg">
+                <img src="estilos/imagens/icon-pc.png" alt="">
+            </picture>
+            <ol style="display: inline-block; padding: 15px;">
+                <li>casa</li>
+                <li>Quarto</li>
+                <li>Sala</li>
+                <li>Banheiro</li>
+                <li>quintal</li>
+            </ol>
+            <section>
+                <form action="#">
+                    <fieldset>
+                        <legend>Pesquisa</legend>
+                         <div>
+                             <label for="inome">Nome</label>
+                             <input type="text" name="nome" id="inome" required placeholder="Nome Completo">
+                         </div> <br>
+                         <div>
+                            <label for="itel">Telefone</label>
+                            <input type="tel" name="tel" id="itel" required placeholder="(xx)xxxx-xxxx">
+                         </div> <br>
+                         <div>
+                            <label for="iemail">E-mail</label>
+                            <input type="email" name="email" id="iemail" required placeholder="exemplo@email.com">
+                         </div> <br>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Sexo</legend>
+                        <div>
+                            <label for="imas">Masclino</label>
+                            <input type="radio" name="sexo" id="imas">
+                        </div> <br>
+                        <div>
+                            <label for="ifen">Feminino</label>
+                            <input type="radio" name="sexo" id="ifen">
+                        </div> <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Comentario</legend>
+                        <div>
+                            <label for="imsg">Faça com pequeno comentario</label> <br>
+                            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+                        </div> <br>
+                    </fieldset>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
+                </form>
+            </section>
+            <aside>
+                <h1>Tabela de produtos</h1>
+                <table>
+                    <caption>Em estoque</caption>
+                    
+                        <thead>
+                            <tr>
+                                <th scope="col">Produtos</th>
+                                <th scope="col">Quantidade</th>
+                                <th scope="col">Preço</th>
+                            </tr>
+                        </thead>
+                    <tbody>
+                        <tr>
+                            <td>Remos de 1,50m</td>
+                            <td>13</td>
+                            <td>R$: 150</td>
+                        </tr>
+                        <tr>
+                            <td>Remos de 80 cm</td>
+                            <td>19</td>
+                            <td>R$: 80</td>
+                        </tr>
+                        <tr>
+                            <td>Ancoras</td>
+                            <td>8</td>
+                            <td>R$: 60</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvidor por MatheusG.ALmeida</p>
+    </footer>
+</body>
+</html>
